@@ -3,8 +3,7 @@ version: "3.8"
 services:
   
   app:
-    depends_on:
-      - mysqldb
+    
     build: .
     restart: on-failure
     env_file: ./.env
