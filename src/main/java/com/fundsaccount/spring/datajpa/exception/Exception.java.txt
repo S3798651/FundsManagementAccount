@@ -1,0 +1,5 @@
+package com.fundsaccount.exception;
+
+public class Exception {
+    
+}
